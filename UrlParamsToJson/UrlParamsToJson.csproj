@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Idzhyan Il`ya</Authors>
+    <Company />
+    <Description>Convert params and nested  params derived by url to Json object</Description>
+    <PackageLicenseUrl>https://github.com/KloderGit/UrlParamsToJson</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/KloderGit/UrlParamsToJson</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/KloderGit/UrlParamsToJson</RepositoryUrl>
+    <PackageTags>UrlParamsToJson, Url, Json</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
+  </ItemGroup>
 
 </Project>
