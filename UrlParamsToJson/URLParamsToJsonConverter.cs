@@ -88,7 +88,7 @@ namespace UrlParamsToJson
             var result = arrays.Where(arr => arr.ElementAt(0) == name);
             return result;
         }
-        //
+        
         private IEnumerable<IEnumerable<string>> CutParent(IEnumerable<IEnumerable<string>> arrays)
         {
             var res = new List<List<string>>();
