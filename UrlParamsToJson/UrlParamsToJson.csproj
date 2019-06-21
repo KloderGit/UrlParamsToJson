@@ -10,7 +10,8 @@
     <PackageProjectUrl>https://github.com/KloderGit/UrlParamsToJson</PackageProjectUrl>
     <RepositoryUrl>https://github.com/KloderGit/UrlParamsToJson</RepositoryUrl>
     <PackageTags>UrlParamsToJson, Url, Json</PackageTags>
-    <AssemblyVersion>1.0.0.2</AssemblyVersion>
+    <AssemblyVersion>1.0.0.5</AssemblyVersion>
+    <FileVersion>1.0.0.5</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
